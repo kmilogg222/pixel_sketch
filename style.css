@@ -29,11 +29,17 @@ h1{
     
 
 }
-#game{
+#gameContent{
     height: 500px;
     width: 500px;
     background-color: red;
-    margin: 0 auto
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0;
+    justify-content: baseline;
+    align-items: baseline;
+
 
 }
 
@@ -48,4 +54,7 @@ button{
     padding: 10px;
     background-color: aqua;
 
+}
+.grid-div{
+    background-color: wheat;
 }
