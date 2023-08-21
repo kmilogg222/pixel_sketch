@@ -1,5 +1,7 @@
 body{
 
+    background-color: blueviolet;
+
 
 
 }
@@ -56,5 +58,11 @@ button{
 
 }
 .grid-div{
-    background-color: wheat;
+    background-color: white;
+    user-drag: none; /* Evita el arrastre */
+    user-select: none; /* Evita la selección de texto */
+}
+
+.activo{
+    background-color: blue;
 }
