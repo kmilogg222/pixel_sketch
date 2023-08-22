@@ -7,6 +7,8 @@ const Beraser= document.getElementById('Beraser');
 const Bclear= document.getElementById('Bclear');
 const sizeSlider= document.getElementById('sizeSlider');
 const gameContent= document.getElementById('gameContent');
+const gridInfo= document.getElementById('gridInfo');
+
 
 
 // Variables de juego
@@ -111,6 +113,7 @@ function actualizar (){
     delDiv.forEach(function(elemento){
         elemento.remove();
     });
+    gridInfo.textContent="GRID "+numeroCuadritos+"*"+numeroCuadritos;
     CreateLayout();
 
 }
